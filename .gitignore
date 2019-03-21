@@ -1,3 +1,8 @@
 .idea/
 out/
 *.iml
+.classpath
+.project
+.settings/
+WebContent/
+build/
