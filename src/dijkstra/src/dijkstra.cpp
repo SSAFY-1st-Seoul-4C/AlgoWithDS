@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
 int INF = 9999999;
 int adj[9999][9999];
 void dijkstra(int n) { // start node 0
