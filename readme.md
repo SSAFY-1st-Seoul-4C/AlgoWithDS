@@ -10,4 +10,8 @@ ALGORITHM STUDY
 
 2. 모든 정렬
 
-    <img src="https://user-images.githubusercontent.com/23524849/54825303-95c3a600-4cf0-11e9-9126-4ab415cbf1a2.png" width=70% /> 
+    <img src="https://user-images.githubusercontent.com/23524849/54825303-95c3a600-4cf0-11e9-9126-4ab415cbf1a2.png" width=70% />
+    
+    
+---
+Hello, World! 
