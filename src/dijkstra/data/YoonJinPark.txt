@@ -1,0 +1,64 @@
+Dijkstra Algorithm by Yoonjin Park
+2019.3.22
+
+<Psuedo Code>
+
+Dijkstra Psueudo Code
+
+// Without Priority Queue
+
+ N nodes(1~N) are connected edges with distances. This algorithm finds the shortest path and distance starting from Node 1. 
+
+  int dist[N+1] // shortest distance until i
+  int path[N+1] // index of node right before 
+  int weight[N+1][N+1] // weight[a][b]>=0 means a to b is connnected with distance weight[a][b], if weight[a][b]<0 it is not connected
+
+  Set all dist[] as infinity 
+
+  for(every node as 'end node' i){ // should start with starting index
+    for(every node as 'middle node' j){
+	if dist[i] is smaller than distance through middle,
+		update dist[i] as smaller value
+		update path[i] as j 
+    }    
+  } 
+
+  dist[i] contains shortest distance to i
+  
+  path can be shown by regressively print from node i
+
+
+// with Priority Queue
+
+ Using Priority Queue, time can be saved by reducing the attempts to find the smalles distance, because priority queue automatically puts the smallest distance ones in the front
+
+ PriorityQueue q saves (node #, distance)
+ int dist[N+1] // shortest distance until i
+ int path[N+1] // index of node right before 
+ int weight[N+1][N+1] // weight[a][b]>=0 means a to b is connnected with distance weight[a][b], if weight[a][b]<0 it is not connected 
+
+ Set all dist[] as infinity  
+ 
+ add present state of each node to the priority queue 
+
+ while priority queue is not empty,
+	pop one from the priority queue
+ 	
+	if popped one is smaller than the present status,
+ 		update present status (dist)
+	
+		check all connected node and compare the distance from 1 to connected node with the distance through popped node. 
+		if it is smaller, 
+			update 
+
+  
+<Question>
+1. Priority Queue를 사용하면 좋은 점은?
+2. Priority Queue를 사용할 때와 안 사용할 때, 시간 복잡도와 공간 복잡도는?
+사용 안 할 때 : O(n^2)
+사용 할 때 : O(nlogn)
+3. Dijkstra Algorithm을 활용한 예는?
+
+
+<Reference>
+http://www.csl.mtu.edu/cs2321/www/newLectures/30_More_Dijkstra.htm

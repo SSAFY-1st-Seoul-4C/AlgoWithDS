@@ -1,0 +1,55 @@
+
+Heap by Yoonjin Park
+2019.3.22
+
+
+
+<Psuedo Code>
+This demonstrates miminum heap. the parent Node has always smaller value than its children node
+
+
+int heap[HEAP_SIZE]//Declare an array to be used as a heap, start with 1 index
+int heapCnt=0 // Declare a count variable to track the size of heap
+
+int push(int x){
+  Add x to the end of array which is heapCnt+1
+  
+  Keep Swapping with Parent Node if it is smaller and if the it does not reach index 1
+
+}
+
+int pop(){
+  Save the first index of heap as a result
+  
+  Swap the value of first index and the last
+  
+  Reduce the heap count
+  
+  Compare with the Children node until it is smaller than the children 
+}
+
+
+<Research>
+- 완전 이진 tree의 일종
+- 부모간의 대소가 중요!
+- Priority Queue 구현 가능!
+
+-부모 Node = 자식 Node/2
+-오른쪽 자식 Node = 부모 Node*2
+-왼쪽 자식 Node = 부모 Node*2+1
+
+- 시간복잡도 
+push() : O(logN)
+pop()  : O(logN)
+
+- 공간 복잡도
+heap array size
+
+
+<Question>
+- heap을 실제 사용하는 예제는?
+- 왜 pop 할 때 자식 노드를 비교해야 하나? 무조건 오른쪽으로 가면 되는 거 아닌가요?
+
+
+reference: 
+https://twpower.github.io/137-heap-implementation-in-cpp
