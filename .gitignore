@@ -6,3 +6,6 @@ out/
 .settings/
 WebContent/
 build/
+./**/*.un~
+./**/*.exe
+./**/*.cpp~
