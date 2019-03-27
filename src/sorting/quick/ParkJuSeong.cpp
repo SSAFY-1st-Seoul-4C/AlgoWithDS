@@ -15,16 +15,12 @@ int searchPivot(int* arr, int start, int end) {
 	int left = start + 1;
 	int right = end;
 	while (left<right) {
-		for (int i = start; i <= end; i++) printf("%d ", arr[i]);
-		printf("\n");
-		while (left<=end && arr[left] <= arr[pivot]) left++;
-		while (right > pivot + 1 &&arr[right] > arr[pivot]) right--;
+		while (left<=end && arr[left] <= pivot) left++;
+		while (right > start &&arr[right] > pivot) right--;
 		if (left < right) {
 			int temp = arr[left];
 			arr[left] = arr[right];
 			arr[right] = temp;
-			left++;
-			right--;
 		}
 	}
 	if (pivot > arr[right]) {
@@ -35,7 +31,6 @@ int searchPivot(int* arr, int start, int end) {
 }
 
 void quickSort(int* arr, int start, int end) {
-	printf("A\n");
 	if (start >= end) return;
 	int pivot = searchPivot(arr, start, end);
 	quickSort(arr, start, pivot - 1);
