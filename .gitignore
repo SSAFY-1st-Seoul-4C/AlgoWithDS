@@ -9,3 +9,6 @@ build/
 /**/*.un~
 /**/*.exe
 /**/*.cpp~
+/**/*.java~
+/**/*.class
+/**/.*.java.swp
