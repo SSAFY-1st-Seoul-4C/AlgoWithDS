@@ -11,3 +11,6 @@ build/
 /**/*.cpp~
 src/Main.java
 src/Solution.java
+/**/*.java~
+/**/*.class
+/**/.*.java.swp
