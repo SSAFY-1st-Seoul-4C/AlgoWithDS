@@ -9,3 +9,5 @@ build/
 /**/*.un~
 /**/*.exe
 /**/*.cpp~
+src/Main.java
+src/Solution.java

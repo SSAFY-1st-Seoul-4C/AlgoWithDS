@@ -16,6 +16,7 @@ ALGORITHM STUDY
 3. 해싱과 문자열
 
     <img src="https://user-images.githubusercontent.com/23524849/55083655-3813cd00-50e7-11e9-93f2-abd657104f82.png" width=40% />
+    <img src="https://user-images.githubusercontent.com/23524849/55473790-79a5fa00-564a-11e9-8895-b54a0dcd3ecb.png" width=70% />
     
 4. 간지용 SWAP
 
