@@ -22,6 +22,10 @@ ALGORITHM STUDY
 
     <img src="https://user-images.githubusercontent.com/23524849/55120886-222ff780-513b-11e9-90dd-321bdb21e385.png" width=40% />
 
+5. 플로이드, 세그먼트
+
+    <img src="https://user-images.githubusercontent.com/23524849/55524725-40609f00-56c9-11e9-8b28-00a81f87d442.png" width=30% />
+
 
 ---
 Copyright 2019. SSAFY-Seoul-4. All rights reserved.

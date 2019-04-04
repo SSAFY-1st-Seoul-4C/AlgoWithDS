@@ -22,7 +22,7 @@ class ParkYoonJin{
 
 		void put(String value){
 			int hash = hash(value);
-			
+
 			int i= indexFor(hash, table.legnth);
 
 			if(table[i]==null) table[i]=new Node(val, hash);
@@ -53,7 +53,7 @@ class ParkYoonJin{
 
 		void remove(String value){
 			int hash = hash(value);
-			
+
 			int i= indexFor(hash, table.legnth);
 
 			if(table[i]!=null){
@@ -68,7 +68,7 @@ class ParkYoonJin{
 
 		boolean contains(String value){
 			int hash = hash(value);
-			
+
 			int i= indexFor(hash, table.legnth);
 			boolena isFound = false;
 
