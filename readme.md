@@ -4,6 +4,10 @@ ALGORITHM STUDY
 
 - 이상철, 박윤진, 김재웅, 캡틴주성, 박영호, 대부님
 
+0. Java 조직도 및 설명
+    - http://hochulshin.com/java-collection-framework/
+    <img src="https://user-images.githubusercontent.com/23524849/56186643-04c7bc80-605b-11e9-978c-a4a92ebc5890.png" width=70% />
+
 1. 다익스트라, 힙
 
     <img src="https://user-images.githubusercontent.com/23524849/54895276-2c1ae600-4f02-11e9-9def-b1f9b58cc82d.png" width=70% />
