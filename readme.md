@@ -6,7 +6,7 @@ ALGORITHM STUDY
 
 0. Java 조직도 및 설명
     - http://hochulshin.com/java-collection-framework/
-    <img src="https://user-images.githubusercontent.com/23524849/56186643-04c7bc80-605b-11e9-978c-a4a92ebc5890.png" width=70% />
+    <img src="https://user-images.githubusercontent.com/23524849/56186643-04c7bc80-605b-11e9-978c-a4a92ebc5890.png" />
 
 1. 다익스트라, 힙
 
